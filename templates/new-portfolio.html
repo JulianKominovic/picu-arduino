@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width,initial-scale=1" name="viewport" />
+    <title>React TS Min Template</title>
+    <script
+      id="script"
+      defer="defer"
+      src="https://picu-arduino.herokuapp.com/builds/new-portfolio/static/js/main.c0b3cb91.js"
+    ></script>
+
+    <link
+      href="https://picu-arduino.herokuapp.com/builds/new-portfolio/static/css/main.6e683dca.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script defer="defer">
+      const script = document.querySelector("#script");
+      window.addEventListener("load", () => {
+        const fixImages = document.querySelectorAll("img");
+        console.log(fixImages);
+        fixImages.forEach((img) => {
+          console.log(img.src);
+          img.src =
+            "https://picu-arduino.herokuapp.com/static/media" +
+            img.src.slice(img.src.lastIndexOf("/"));
+        });
+      });
+    </script>
+  </body>
+</html>
