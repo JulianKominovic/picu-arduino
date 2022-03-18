@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/builds/new-portfolio/static/css/main.6e683dca.css",
+    "main.js": "/builds/new-portfolio/static/js/main.c0b3cb91.js",
+    "static/media/Ikbal 3.png": "/builds/new-portfolio/static/media/Ikbal 3.f228703ed89e49420fae.png",
+    "static/media/darkgradient-1.jpg": "/builds/new-portfolio/static/media/darkgradient-1.8f857f228c9f85eea242.jpg",
+    "static/media/imageuploader.png": "/builds/new-portfolio/static/media/imageuploader.f209455fc569d10faa9a.png",
+    "static/media/calendar.png": "/builds/new-portfolio/static/media/calendar.90970fe28b07aa448c41.png",
+    "static/media/react.svg": "/builds/new-portfolio/static/media/react.4a792339c56e09dc19ff690cd7c338f1.svg",
+    "static/media/nodejs.svg": "/builds/new-portfolio/static/media/nodejs.381745b5a14e864a9813fc807a443125.svg",
+    "static/media/java.svg": "/builds/new-portfolio/static/media/java.8cc8f02ef41d2e6d9f99dd4180ab5bf4.svg",
+    "static/media/language-javascript.svg": "/builds/new-portfolio/static/media/language-javascript.0432e66f77e58b352afada4f9515c0c4.svg",
+    "static/media/ts.svg": "/builds/new-portfolio/static/media/ts.05ce29eb178c284b1d7d057bf14c0f27.svg",
+    "static/media/css.svg": "/builds/new-portfolio/static/media/css.d01ec9a8a40ca337a7bfb0c46b0ee337.svg",
+    "index.html": "/index.html",
+    "main.6e683dca.css.map": "/builds/new-portfolio/static/css/main.6e683dca.css.map",
+    "main.c0b3cb91.js.map": "/builds/new-portfolio/static/js/main.c0b3cb91.js.map"
+  },
+  "entrypoints": [
+    "builds/new-portfolio/static/css/main.6e683dca.css",
+    "builds/new-portfolio/static/js/main.c0b3cb91.js"
+  ]
+}
