@@ -54,20 +54,18 @@ app.get("/builds/new-portfolio/static/media/:file", (req, res) => {
   );
 });
 app.get("/static/media/:file", (req, res) => {
-  const { pathname } = new URL(req.headers.referer);
+  //   const { pathname } = new URL(req.headers.referer);
 
-  if (pathname === "/port") {
-    res.sendFile(
-      path.join(
-        __dirname,
-        "builds",
-        "new-portfolio",
-        "static",
-        "media",
-        req.params.file
-      )
-    );
-  }
+  res.sendFile(
+    path.join(
+      __dirname,
+      "builds",
+      "new-portfolio",
+      "static",
+      "media",
+      req.params.file
+    )
+  );
 });
 
 app.listen(process.env.PORT || port, () => {
