@@ -1,9 +1,10 @@
 const express = require("express");
 const app = express();
+var cors = require("cors");
 var path = require("path");
 const port = 3000;
 // var public = path.join(__dirname, "builds");
-
+app.use(cors());
 app.use(
   "/builds/new-portfolio/static/media/",
   express.static(path.join(__dirname, "builds", "new-portfolio", "static"))
